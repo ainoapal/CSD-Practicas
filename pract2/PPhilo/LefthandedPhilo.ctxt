@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=LefthandedPhilo
+comment1.params=id\ cycles\ delay\ table
+comment1.target=LefthandedPhilo(int,\ int,\ int,\ Table)
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\ clase\ LefthandedPhilo\ que\ corresponde\ a\ un\ fil\u00F3sofo\ que\ \r\n\ debe\ coger\ los\ tenedores\ en\ orden\ contrario\ al\ de\ Philo,\ \r\n\ pero\ mantiene\ el\ orden\ en\ que\ se\ liberan.\r\n\ C\u00F3digo\ de\ Philo\:\r\n\ public\ void\ run()\ {\r\n\ \ \ \ \ \ \ \ try\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ table.begin(id);\r\n\ \ \ \ \ \ \ \ \ \ \ \ for\ (int\ i\=0;\ i<cycles;\ i++)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.takeR(id);\ delay();\ table.takeL(id);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.eat(id);\ randomDelay();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.dropR(id);\ table.dropL(id);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ table.ponder(id);\ randomDelay();\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ table.end(id);\r\n\ \ \ \ \ \ \ \ }\ \r\n\ \ \ \ \ \ \ \ catch\ (InterruptedException\ ex)\ {}\r\n\ \ \ \ }\r\n
+numComments=3

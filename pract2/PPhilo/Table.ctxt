@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Table
+comment1.params=id
+comment1.target=void\ begin(int)
+comment10.params=id
+comment10.target=void\ enter(int)
+comment11.params=id
+comment11.target=void\ exit(int)
+comment2.params=id
+comment2.target=void\ ponder(int)
+comment3.params=id
+comment3.target=void\ takeR(int)
+comment4.params=id
+comment4.target=void\ takeL(int)
+comment5.params=id
+comment5.target=void\ eat(int)
+comment6.params=id
+comment6.target=void\ dropR(int)
+comment7.params=id
+comment7.target=void\ dropL(int)
+comment8.params=id
+comment8.target=void\ end(int)
+comment9.params=id
+comment9.target=void\ takeLR(int)
+numComments=12
